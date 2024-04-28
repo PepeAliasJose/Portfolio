@@ -1,3 +1,25 @@
 {
-    "hello":"Hola mundo"
+    "hello":"Hola mundo",
+    "home":{
+        "name":"José Rodríguez Cáceres",
+        "links":{
+            "button":"Enlaces",
+            "home":"Principal",
+            "robotics":"Robotica",
+            "developer":"Desarrollador",
+            "photography":"Fotógrafo",
+            "proyects":"Proyectos",
+            "contact":"Contactame"
+        },
+        "description":{
+            "dev":"Desarrollador FullStack",
+            "rob":"Tecnico en robotica industrial",
+            "fot":"Fotografo y editor"
+        },
+        "titles":{
+            "daw":"Técnico superior en desarrollo de aplicaciones web",
+            "ari":"Técnico superior en automatización y robótica industrial"
+        },
+        "longDescription":""
+    }
 }

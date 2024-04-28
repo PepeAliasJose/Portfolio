@@ -1,3 +1,25 @@
 {
-    "hello":"Hellow world"
+    "hello":"Hellow world",
+    "home":{
+        "name":"Jose Rodriguez Caceres",
+        "links":{
+            "button":"Links",
+            "home":"Home",
+            "robotics":"Robotics",
+            "developer":"Developer",
+            "photography":"Photographer",
+            "proyects":"Proyects",
+            "contact":"Contact me"
+        },
+        "description":{
+            "dev":"FullStack Developer",
+            "rob":"Industrial robotics technician",
+            "fot":"Pohotographer and editor"
+        },
+        "titles":{
+            "daw":"Higher degree in web application development",
+            "ari":"Higher degree in industrial automation and robotics"
+        },
+        "longDescription":""
+    }
 }

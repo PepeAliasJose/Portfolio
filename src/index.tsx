@@ -6,6 +6,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/home/Home";
 import global_en from "./locales/en/translate.json";
 import global_es from "./locales/es/translate.json";
+import Navbar from "./components/molecules/Navbar";
+import { ChakraProvider } from "@chakra-ui/react";
+import { theme } from "./theme";
+import "./styles/index.css";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -13,8 +17,8 @@ const root = ReactDOM.createRoot(
 
 i18next.init({
   interpolation: { escapeValue: false },
-  lng: "en",
-  fallbackLng: "es",
+  lng: "es",
+  fallbackLng: "en",
   resources: {
     en: {
       global: global_en,
@@ -27,12 +31,15 @@ i18next.init({
 
 root.render(
   <React.StrictMode>
-    <I18nextProvider i18n={i18next}>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
-      </BrowserRouter>
-    </I18nextProvider>
+    <ChakraProvider theme={theme}>
+      <I18nextProvider i18n={i18next}>
+        <BrowserRouter>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </BrowserRouter>
+      </I18nextProvider>
+    </ChakraProvider>
   </React.StrictMode>
 );
