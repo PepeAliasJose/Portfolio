@@ -1,5 +1,4 @@
 {
-    "hello":"Hola mundo",
     "home":{
         "name":"José Rodríguez Cáceres",
         "links":{
@@ -27,5 +26,26 @@
         "robDesc":"He estado estudiando automatización y robótica industrial. He trabajado en la instalación de redes eléctricas de potencia, automatizando procesos industriales. Además, he participado en proyectos de equipo donde he adquirido conocimientos en inteligencia artificial.",
         "longDescription":"¡Hola! Soy José y me apasiona la tecnología y la investigación. Soy un programador FullStack y técnico en automatización y robótica de Sevilla. Me gusta desarrollar soluciones increíbles trabajando con nuevas tecnologías. Soy muy bueno en el análisis e investigación, además soy muy resolutivo y disciplinado, así que puedo superar cualquier reto y problema de manera muy efectiva.",
         "tech":"Estas son las tecnologias con las que he trabajado y me familiarizo con ellas:"
+    },
+    "proyects":{
+        "info":"Click en la imagen para mas información.",
+        "visual":{
+            "title":"Visión artificial y redes neuronales",
+            "description":"TFG sobre automatización y robótica: Construí una red neuronal y la entrené para reconocer ruedas de vehículos y personas. La red es capaz de enviar una señal a un robot para recoger la rueda, y también cuenta con un mecanismo de seguridad que detiene la operación si detecta a una persona en la instalación, enviando un mensaje al responsable. Ejecuté la red neuronal en un hardware reducido (Nvidia Jetson Nano 2GB), lo que implicó tareas de optimización.",
+            "p1":"",
+            "p2":"",
+            "p3":"",
+            "redirect":"Puedes ver el proyecto en GitHub: ",
+            "aptitudes":["Trabajo en equipo","Python","Tensorflow","OpenCV","Resolución de problemas","Investigación","ML","Análisis de datos"]
+        },
+        "car":{
+            "title":"Detección de color y formas",
+            "description":"Este proyecto consiste en un programa que permite a una Nvidia Jetson Nano detectar, a través de una cámara, una serie de figuras de Lego basadas en su color y forma utilizando las librerías de OpenCV. Además, establece un canal de comunicación con un Arduino para determinar la distancia hasta el objeto y, finalmente, utilizar una pinza para recogerlo y guardarlo.",
+            "p1":"",
+            "p2":"",
+            "p3":"",
+            "redirect":"Puedes ver el proyecto en GitHub: ",
+            "aptitudes":["Trabajo en equipo","Python","OpenCV","Resolución de problemas","Investigación","GPIO","Autoaprendizaje"]
+        }
     }
 }

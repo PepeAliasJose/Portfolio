@@ -13,7 +13,7 @@ const TechCard = (props: Props) => {
       flexDir={"row"}
       p="10px"
       borderRadius={"10px"}
-      maxHeight={"min-content"}
+      height={"min-content"}
       gap={2}
       backdropFilter={"blur(5px) brightness(120%)"}
     >
@@ -31,6 +31,7 @@ const TechCard = (props: Props) => {
         flexDir={"column"}
         gap={2}
         minWidth={{ base: "50px", sm: "75px" }}
+        w={"75%"}
       >
         <Text fontSize={{ base: "sm", sm: "md" }}>{props.name}</Text>
         <Progress

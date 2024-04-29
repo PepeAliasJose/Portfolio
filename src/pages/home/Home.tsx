@@ -12,8 +12,9 @@ const Home = () => {
 
   return (
     <Box
-      m={"10px"}
-      mb={"0px"}
+      mx={{ base: "10px", sm: "50px", md: "100px" }}
+      mt={{ base: "25px" }}
+      mb={"15px"}
       pb={"20px"}
       display={"flex"}
       flexDirection={"column"}
@@ -22,7 +23,7 @@ const Home = () => {
       <ParticlesBg type="cobweb" bg={true} num={100} />
       <Box display={"block"}>
         <Text
-          fontSize={{ base: "3xl", md: "5xl", xl: "7xl" }}
+          fontSize={{ base: "3xl", md: "6xl", xl: "8xl" }}
           w="fit-content"
           mb={"1rem"}
           fontWeight={"semibold"}
@@ -38,7 +39,7 @@ const Home = () => {
           borderRadius={"10px"}
           border={"2px"}
           borderStyle={"solid"}
-          borderColor={"gray.900"}
+          borderColor={"blue.500"}
           w={"fit-content"}
           p="10px"
           backdropFilter={"blur(5px) brightness(105%)"}
@@ -76,7 +77,7 @@ const Home = () => {
           w={"fit-content"}
           borderStyle={"solid"}
           border={"2px"}
-          borderColor={"gray.900"}
+          borderColor={"yellow.400"}
         >
           {t("home.dawTitle")}
         </Text>
@@ -168,7 +169,7 @@ const Home = () => {
           borderRadius={"15px"}
           borderStyle={"solid"}
           border={"2px"}
-          borderColor={"gray.900"}
+          borderColor={"red.500"}
           px={"15px"}
         >
           {t("home.robTitle")}

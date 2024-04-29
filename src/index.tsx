@@ -11,6 +11,10 @@ import { ChakraProvider } from "@chakra-ui/react";
 import { theme } from "./theme";
 
 import "./styles/index.css";
+import Proyects from "./pages/proyects/Proyects";
+
+import ObjectDetection from "./pages/proyects/myProyects/ObjectDetection";
+import ArduinoCar from "./pages/proyects/myProyects/ArduinoCar";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -38,6 +42,9 @@ root.render(
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/proyects" element={<Proyects />} />
+            <Route path="/proyects/car" element={<ArduinoCar />} />
+            <Route path="/proyects/visual" element={<ObjectDetection />} />
           </Routes>
         </BrowserRouter>
       </I18nextProvider>
