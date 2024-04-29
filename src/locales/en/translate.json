@@ -20,6 +20,12 @@
             "daw":"Higher degree in web application development",
             "ari":"Higher degree in industrial automation and robotics"
         },
-        "longDescription":"Me apasiona la tecnología y la investigación. Mi objetivo es desarrollar aplicaciones innovadoras y seguir descubriendo cosas nuevas. Soy muy bueno en el análisis e investigación, ademas soy muy resolutivo y disciplinado así qué puedo superar cualquier reto y problema de manera muy efectiva."
+        "more":"More info here",
+        "dawTitle":"Web development",
+        "dawDesc":"I spent 3 years studying and programming web and desktop applications with Java 8, Java 17, JSP, ReactJS, and NextJS. I also have a solid knowledge of databases and I have worked with Oracle's SQL and PL/SQL, MySQL in MariaDB, and Microsoft SQL Server.",
+        "robTitle":"Industrial automation and robotics",
+        "robDesc":"I have been studying industrial automation and robotics. I have worked on installing power electrical networks, automating industrial processes, and have been involved in team projects where I gained knowledge in artificial intelligence.",
+        "longDescription":"Hello! I'm José and I'm passionate about technology and research. I'm a FullStack developer and a industrial robotics technician from Seville. I enjoy developing incredible solutions by working with new technologies. I'm very skilled in analysis and research, and I'm also very resourceful and disciplined, so I can overcome any challenge or problem very effectively.",
+        "tech":"These are the technologies I have worked with and I am familiar with:"
     }
 }

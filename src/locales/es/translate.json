@@ -5,7 +5,7 @@
         "links":{
             "button":"Enlaces",
             "home":"Principal",
-            "robotics":"Robotica",
+            "robotics":"Robótica",
             "developer":"Desarrollador",
             "photography":"Fotógrafo",
             "proyects":"Proyectos",
@@ -20,6 +20,12 @@
             "daw":"Técnico superior en desarrollo de aplicaciones web",
             "ari":"Técnico superior en automatización y robótica industrial"
         },
-        "longDescription":"Me apasiona la tecnología y la investigación. Mi objetivo es desarrollar aplicaciones innovadoras y seguir descubriendo cosas nuevas. Soy muy bueno en el análisis e investigación, ademas soy muy resolutivo y disciplinado así qué puedo superar cualquier reto y problema de manera muy efectiva."
+        "more":"Mas información aquí",
+        "dawTitle":"Desarrollo de aplicaciones web",
+        "dawDesc":"He pasado 3 años estudiando y programando aplicaciones web y de escritorio con Java 8, Java 17, JSP, ReactJS y NextJS. También tengo un sólido conocimiento en bases de datos y he trabajado con SQL y PL/SQL de Oracle, MySQL en MariaDB y Microsoft SQL Server.",
+        "robTitle":"Automatización y robótica industrial",
+        "robDesc":"He estado estudiando automatización y robótica industrial. He trabajado en la instalación de redes eléctricas de potencia, automatizando procesos industriales. Además, he participado en proyectos de equipo donde he adquirido conocimientos en inteligencia artificial.",
+        "longDescription":"¡Hola! Soy José y me apasiona la tecnología y la investigación. Soy un programador FullStack y técnico en automatización y robótica de Sevilla. Me gusta desarrollar soluciones increíbles trabajando con nuevas tecnologías. Soy muy bueno en el análisis e investigación, además soy muy resolutivo y disciplinado, así que puedo superar cualquier reto y problema de manera muy efectiva.",
+        "tech":"Estas son las tecnologias con las que he trabajado y me familiarizo con ellas:"
     }
 }

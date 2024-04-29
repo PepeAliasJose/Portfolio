@@ -9,6 +9,7 @@ import global_es from "./locales/es/translate.json";
 import Navbar from "./components/molecules/Navbar";
 import { ChakraProvider } from "@chakra-ui/react";
 import { theme } from "./theme";
+
 import "./styles/index.css";
 
 const root = ReactDOM.createRoot(
