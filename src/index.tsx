@@ -15,6 +15,7 @@ import Proyects from "./pages/proyects/Proyects";
 
 import ObjectDetection from "./pages/proyects/myProyects/ObjectDetection";
 import ArduinoCar from "./pages/proyects/myProyects/ArduinoCar";
+import Developer from "./pages/developer/Developer";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -42,6 +43,7 @@ root.render(
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/developer" element={<Developer />} />
             <Route path="/proyects" element={<Proyects />} />
             <Route path="/proyects/car" element={<ArduinoCar />} />
             <Route path="/proyects/visual" element={<ObjectDetection />} />
