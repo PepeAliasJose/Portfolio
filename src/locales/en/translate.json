@@ -29,6 +29,7 @@
         "tech":"These are the technologies I have worked with and I am familiar with:"
     },
     "proyects":{
+        "more":"See more on GitHub ",
         "info":"Click the image for more info.",
         "visual":{
             "title":"Artificial vision and Neural Networks",
@@ -47,6 +48,15 @@
             "p3":"",
             "redirect":"",
             "aptitudes":["Teamwork","Python","OpenCV","Problem solving","Research","GPIO","Data analysis"]
+        },
+        "http":{
+            "title":"HTTP Server",
+            "description":"HTTP Server in Java from scratch",
+            "p1":"",
+            "p2":"",
+            "p3":"",
+            "redirect":"(Under development)",
+            "aptitudes":["(Under development)"]
         }
     }
     

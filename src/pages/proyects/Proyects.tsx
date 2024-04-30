@@ -2,6 +2,8 @@ import { Box, Text } from "@chakra-ui/react";
 import ProyectCard from "../../components/organisms/ProyectCard";
 import { useTranslation } from "react-i18next";
 import ParticlesBg from "particles-bg";
+import { Link } from "react-router-dom";
+import IconGit from "../../components/icons/IconGit";
 
 const Proyects = () => {
   const { t } = useTranslation("global");
@@ -32,6 +34,7 @@ const Proyects = () => {
           t("proyects.visual.aptitudes.7"),
         ]}
       />
+      <hr style={{ borderColor: "black" }} />
       <ProyectCard
         reversed
         to="./car"
@@ -48,6 +51,27 @@ const Proyects = () => {
           t("proyects.car.aptitudes.0"),
         ]}
       />
+      <hr style={{ borderColor: "black" }} />
+      <ProyectCard
+        to="./"
+        src={process.env.REACT_APP_LOCAL + "tools.svg"}
+        title={t("proyects.http.title")}
+        description={t("proyects.http.description")}
+        aptitud={[t("proyects.http.aptitudes.0")]}
+      />
+      <hr style={{ borderColor: "black" }} />
+      <Box m="10px" p="10px">
+        <Text textAlign={"center"}>
+          {t("proyects.more")}
+          <Link
+            to={
+              "https://github.com/PepeAliasJose?tab=repositories&q=&type=public&language=&sort="
+            }
+          >
+            <IconGit ml={"10px"} viewBox="0 0 17 17" boxSize={10} />
+          </Link>
+        </Text>
+      </Box>
     </Box>
   );
 };

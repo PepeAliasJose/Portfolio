@@ -28,6 +28,7 @@
         "tech":"Estas son las tecnologias con las que he trabajado y me familiarizo con ellas:"
     },
     "proyects":{
+        "more":"Ver mas trabajos en GitHub ",
         "info":"Click en la imagen para mas información.",
         "visual":{
             "title":"Visión artificial y redes neuronales",
@@ -46,6 +47,15 @@
             "p3":"",
             "redirect":"Puedes ver el proyecto en GitHub: ",
             "aptitudes":["Trabajo en equipo","Python","OpenCV","Resolución de problemas","Investigación","GPIO","Autoaprendizaje"]
+        },
+        "http":{
+            "title":"Servidor HTTP",
+            "description":"Servidor HTTP desde 0 en Java (En desarrollo)",
+            "p1":"",
+            "p2":"",
+            "p3":"",
+            "redirect":"(En desarrollo)",
+            "aptitudes":["(En desarrollo)"]
         }
     }
 }

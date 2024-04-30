@@ -67,6 +67,7 @@ const Home = () => {
           {t("home.longDescription")}
         </Text>
       </Box>
+      <hr style={{ borderColor: "black" }} />
       <Box>
         <Text
           fontSize={"3xl"}
@@ -159,6 +160,7 @@ const Home = () => {
           </Grid>
         </Box>
       </Box>
+      <hr style={{ borderColor: "black" }} />
       <Box gap={2}>
         <Text
           fontSize={"3xl"}
