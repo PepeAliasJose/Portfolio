@@ -6,7 +6,7 @@ import PhotoCompare from "../../components/organisms/PhotoCompare";
 const Robotic = () => {
   const { t } = useTranslation("global");
   return (
-    <Box w="100%">
+    <Box w="100%" pb={"20px"}>
       <Box
         mx={{ base: "10px", sm: "auto" }}
         w={{ base: "auto", sm: "85%", md: "70%" }}

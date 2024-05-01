@@ -42,6 +42,7 @@ const Developer = () => {
             </Text>
           </Box>
           <iframe
+            title="CDP Jose Cabrera"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1931.1355883916553!2d-6.178941725642766!3d36.86700067776767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0de939ce36e03b%3A0x3eb7adb486ce0f1e!2sCentro%20Docente%20Jos%C3%A9%20Cabrera!5e0!3m2!1ses!2ses!4v1714480143505!5m2!1ses!2ses"
             width="400"
             height="250"

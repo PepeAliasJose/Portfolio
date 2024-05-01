@@ -1,5 +1,5 @@
 {
-    "hello":"Hellow world",
+    "contact":"You can contact me here:",
     "home":{
         "name":"Jose Rodriguez Caceres",
         "links":{
@@ -32,7 +32,7 @@
         "title":"Fotographer and editor"
     },
     "developer":{
-        "description":"I have studied programming at the CDP José Cabrera center in Trebujena. Over 2 years, I have solidified my programming knowledge acquired from my previous studies in robotics and expanded upon it. During this time, I have completed various projects, such as library management programs using MySql, Java, and Swing, web applications for buying and selling items with user control, user-specific shopping carts, and form verification using Java web, JSP, HTML, CSS, Bootstrap, and JavaScript. I have also gained experience in version control using Git, and developed dynamic apps with React and Next.js.",
+        "description":"I have studied programming at the CDP José Cabrera center in Trebujena. Over 2 years, I have increased my programming knowledge acquired from my previous studies in robotics and expanded upon it. During this time, I have completed various projects, such as library management programs using MySql, Java, and Swing, web applications for buying and selling items with user control, user-specific shopping carts, and form verification using Java web, JSP, HTML, CSS, Bootstrap, and JavaScript. I have also gained experience in version control using Git, and developed dynamic apps with React and Next.js.",
         "d2":"Also, I have knowledge of Spring Boot and its use for microservices, along with the creation of REST APIs with Java. I am familiar with XML and JSON and how to read these files from JavaScript using fetch, and from Java using the File class. I also have basic proficiency in Docker.",
         "d3":"I have created relational databases using Oracle databases and its SQLDeveloper (SQL, PL/SQL, Triggers). Additionally, I have developed functional applications using Azure and Firebase services."
     },
