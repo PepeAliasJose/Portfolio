@@ -20,7 +20,7 @@ const TechCard = (props: Props) => {
       backdropFilter={"blur(5px) brightness(120%)"}
     >
       <Image
-        src={props.src}
+        src={process.env.REACT_APP_LOCAL + props.src}
         alt={props.name}
         mx={"auto"}
         minWidth={{ base: "20px", sm: "50px" }}

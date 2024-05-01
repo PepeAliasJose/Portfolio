@@ -36,6 +36,11 @@
         "d2":"Also, I have knowledge of Spring Boot and its use for microservices, along with the creation of REST APIs with Java. I am familiar with XML and JSON and how to read these files from JavaScript using fetch, and from Java using the File class. I also have basic proficiency in Docker.",
         "d3":"I have created relational databases using Oracle databases and its SQLDeveloper (SQL, PL/SQL, Triggers). Additionally, I have developed functional applications using Azure and Firebase services."
     },
+    "robotics":{
+        "d1": "I studied a higher degree in industrial automation and robotics at the Salesian College Manuel Lora Tamayo in Jerez de la Frontera. During that time, I learned about pneumatics, electricity, and electronics. I began my journey into programming by creating algorithms in C++, KOP, and AWL on Siemens PLCs. I also learned AutoCAD.",
+        "d2": "Later, I learned to communicate Siemens PLCs in a network and to program SCADA on graphical screens. I have programmed ABB and Fanuc robotic arms. I have also got into advanced C++ programming and Arduino programming.",
+        "d3": "In a series of team projects, I worked with Python for image analysis using OpenCV, Pandas, Matplotlib, and a camera on a Nvidia Jetson Nano. Additionally, I worked on neural networks using TensorFlow."
+    },
     "proyects":{
         "more":"See more on GitHub ",
         "info":"Click the image for more info.",
@@ -45,7 +50,7 @@
             "p1":"",
             "p2":"",
             "p3":"",
-            "redirect":"Look at it on GitHub:",
+            "redirect":"Look at it on GitHub  clicking the image.",
             "aptitudes":["Teamwork","Python","Tensorflow","OpenCV","Problem solving","Research","ML","Data analysis"]
         },
         "car":{

@@ -35,6 +35,11 @@
         "d2":"Ademas, cuento con conocimientos de SpringBoot y su uso para microservicios,a lo que ademas se añade la creación de API Rest con Java. A esto se le añade XML y JSON como leer estos ficheros desde JavaScript con fetch y Java con el uso de la clase File. Uso basico de Docker",
         "d3":"He creado bases de datos relacionales usando bases de datos de Oracle y su SQLDeveloper(SQL, PL/SQL, Triggers). He publicado aplicaciones funcionales utilizando el servicio de Azure (Con SQL Server) y Firebase"
     },
+    "robotics":{
+        "d1": "Estudie un grado superior de automatizacióny robotica industrial en el Colegio Salesiano Manuel Lora Tamayo de Jerez de la frontera. En ese tiempo aprendí neumatica, electricidad y electrónica. Empezó vi viaje por la programación realizando algoritmos en C++, KOP y AWL en PLC de Siemens. También Autocad.",
+        "d2": "Luego, aprendí a comunicar PLC de siemens en red y a programar SCADA en pantallas graficas. He programado brazos robots de ABB y de Fanuc. Programación C++ más avanzada y programación de Arduinos.",
+        "d3": "En una serie de proyectos en equipo trabajé con Python, anlisis de imagenes con OpenCV, Pandas, Matplotlib y una camara en una Nvidia Jetson Nano, y, redes neuronales con TensorFlow."
+    },
     "proyects":{
         "more":"Ver mas trabajos en GitHub ",
         "info":"Click en la imagen para mas información.",
@@ -44,7 +49,7 @@
             "p1":"",
             "p2":"",
             "p3":"",
-            "redirect":"Puedes ver el proyecto en GitHub pulsando la imagen ",
+            "redirect":"Puedes ver el proyecto en GitHub pulsando la imagen.",
             "aptitudes":["Trabajo en equipo","Python","Tensorflow","OpenCV","Resolución de problemas","Investigación","ML","Análisis de datos"]
         },
         "car":{
