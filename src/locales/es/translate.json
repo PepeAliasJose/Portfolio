@@ -33,10 +33,7 @@
     "developer":{
         "description":"He estudiado programación en un grado superior de desarrollo de aplicaciones web en el centro CDP José Cabrera en trebujena. Durante 2 años he afianzado los conocimientos que ya tenia de programación por mis estudios anteriores en robotica y los he expandido. En este tiempo he realizado diversos proyectos como programas de gestión de bibliotecas usando MySql, Java y Swing, aplicaciones web de compra-venta de articulos con control de usuarios, carrito de la compra por usuario y verificación de formularios usando Java web, JSP, HTML, CSS, Boostrap y JavaScript. También control de versiones usando Git y desarrollo de apps dinamicas con React y Next.JS ",
         "d2":"Ademas, cuento con conocimientos de SpringBoot y su uso para microservicios,a lo que ademas se añade la creación de API Rest con Java. A esto se le añade XML y JSON como leer estos ficheros desde JavaScript con fetch y Java con el uso de la clase File. Uso basico de Docker",
-        "d3":"He creado bases de datos relacionales usando bases de datos de Oracle y su SQLDeveloper(SQL, PL/SQL, Triggers). He publicado aplicaciones funcionales utilizando el servicio de Azure (Con SQL Server) y Firebase",
-        "":"",
-        "":"",
-        "":""
+        "d3":"He creado bases de datos relacionales usando bases de datos de Oracle y su SQLDeveloper(SQL, PL/SQL, Triggers). He publicado aplicaciones funcionales utilizando el servicio de Azure (Con SQL Server) y Firebase"
     },
     "proyects":{
         "more":"Ver mas trabajos en GitHub ",
