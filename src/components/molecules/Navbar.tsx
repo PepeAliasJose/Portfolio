@@ -14,48 +14,48 @@ const Navbar = () => {
             {t("home.name")}
           </Text>
         </Box>
-        <Box className="linkBox">
+        <Box className="linkBoxt">
           <Box className="linkList">
-            <Link className="navLink" to={"/"}>
+            <Link className="navLink " to={"/"}>
               {t("home.links.home")}
             </Link>
-            <Link className="navLink" to={"/developer"}>
+            <Link className="navLink " to={"/developer"}>
               {t("home.links.developer")}
             </Link>
-            <Link className="navLink" to={"/robotics"}>
+            <Link className="navLink " to={"/robotics"}>
               {t("home.links.robotics")}
             </Link>
-            <Link className="navLink" to={"/proyects"}>
+            <Link className="navLink " to={"/proyects"}>
               {t("home.links.proyects")}
             </Link>
             <Link className="navLink" to={"/photographer"}>
               {t("home.links.photography")}
             </Link>
-            <Link className="navLink" to={"/contact"}>
+            <Link className="navLink " to={"/contact"}>
               {t("home.links.contact")}
             </Link>
           </Box>
 
-          <Box className="linkButton">
+          <Box className="linkButton invertCont">
             <Menu>
               <MenuButton>{t("home.links.button")}</MenuButton>
               <MenuList bg={"gray.100"} display={"block"}>
-                <Link className="navLink" to={"/"}>
+                <Link className="navLink invertText" to={"/"}>
                   {t("home.links.home")}
                 </Link>
-                <Link className="navLink" to={"/developer"}>
+                <Link className="navLink invertText" to={"/developer"}>
                   {t("home.links.developer")}
                 </Link>
-                <Link className="navLink" to={"/robotics"}>
+                <Link className="navLink invertText" to={"/robotics"}>
                   {t("home.links.robotics")}
                 </Link>
-                <Link className="navLink" to={"/proyects"}>
+                <Link className="navLink invertText" to={"/proyects"}>
                   {t("home.links.proyects")}
                 </Link>
-                <Link className="navLink" to={"/photographer"}>
+                <Link className="navLink invertText" to={"/photographer"}>
                   {t("home.links.photography")}
                 </Link>
-                <Link className="navLink" to={"/contact"}>
+                <Link className="navLink invertText" to={"/contact"}>
                   {t("home.links.contact")}
                 </Link>
               </MenuList>

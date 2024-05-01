@@ -11,6 +11,8 @@ const TechCard = (props: Props) => {
     <Box
       display={"flex"}
       flexDir={"row"}
+      float={"left"}
+      m="5px"
       p="10px"
       borderRadius={"10px"}
       height={"min-content"}

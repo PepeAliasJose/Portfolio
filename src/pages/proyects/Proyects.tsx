@@ -17,11 +17,13 @@ const Proyects = () => {
         Mis proyectos
       </Text>
       <ProyectCard
-        to="./visual"
+        to="https://github.com/PepeAliasJose/ProyectoFinalRobotica"
         src={process.env.REACT_APP_LOCAL + "proyects/visionPresentation.jpg"}
         title={t("proyects.visual.title")}
         description={
-          t("proyects.visual.description") + " " + t("proyects.info")
+          t("proyects.visual.description") +
+          "  " +
+          t("proyects.visual.redirect")
         }
         aptitud={[
           t("proyects.visual.aptitudes.0"),
@@ -37,7 +39,7 @@ const Proyects = () => {
       <hr style={{ borderColor: "black" }} />
       <ProyectCard
         reversed
-        to="./car"
+        to="./"
         src={process.env.REACT_APP_LOCAL + "proyects/carPresentation.jpg"}
         title={t("proyects.car.title")}
         description={t("proyects.car.description")}

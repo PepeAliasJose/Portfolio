@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import i18next from "i18next";
 import { I18nextProvider } from "react-i18next";
@@ -16,6 +16,8 @@ import Proyects from "./pages/proyects/Proyects";
 import ObjectDetection from "./pages/proyects/myProyects/ObjectDetection";
 import ArduinoCar from "./pages/proyects/myProyects/ArduinoCar";
 import Developer from "./pages/developer/Developer";
+import Photographer from "./pages/photographer/Photographer";
+import Robotic from "./pages/robotics/Robotic";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -44,6 +46,8 @@ root.render(
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/developer" element={<Developer />} />
+            <Route path="/photographer" element={<Photographer />} />
+            <Route path="/robotics" element={<Robotic />} />
             <Route path="/proyects" element={<Proyects />} />
             <Route path="/proyects/car" element={<ArduinoCar />} />
             <Route path="/proyects/visual" element={<ObjectDetection />} />
