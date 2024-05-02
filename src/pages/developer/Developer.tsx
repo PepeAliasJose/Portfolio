@@ -1,6 +1,7 @@
 import { Box, Text } from "@chakra-ui/react";
 import { useTranslation } from "react-i18next";
 import TechCard from "../../components/molecules/TechCard";
+import Img from "../../components/atoms/Img";
 
 const Developer = () => {
   const { t } = useTranslation("global");
@@ -59,6 +60,12 @@ const Developer = () => {
           <Text className="invertText" fontSize={"lg"}>
             {t("developer.d3")}
           </Text>
+        </Box>
+
+        <Box>
+          <Box w={{ base: "100%", md: "50%" }} mx={"auto"}>
+            <Img src="MH.jpg" />
+          </Box>
         </Box>
         <Box>
           <TechCard
