@@ -17,6 +17,7 @@
     "@types/react-dom": "^18.3.0",
     "axios": "^1.6.8",
     "firebase": "^10.11.1",
+    "firebase-tools": "^13.8.0",
     "framer-motion": "^11.1.7",
     "i18next": "^23.11.2",
     "material-icons": "^1.13.12",
