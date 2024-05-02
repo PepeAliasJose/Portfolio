@@ -64,7 +64,7 @@ const Developer = () => {
 
         <Box>
           <Box w={{ base: "100%", md: "50%" }} mx={"auto"}>
-            <Img src="MH.jpg" />
+            <Img src="img/matricula.jpg" />
           </Box>
         </Box>
         <Box>
