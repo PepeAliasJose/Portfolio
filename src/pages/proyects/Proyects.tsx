@@ -55,11 +55,20 @@ const Proyects = () => {
       />
       <hr style={{ borderColor: "black" }} />
       <ProyectCard
-        to="./"
-        src={process.env.REACT_APP_LOCAL + "tools.svg"}
-        title={t("proyects.http.title")}
-        description={t("proyects.http.description")}
-        aptitud={[t("proyects.http.aptitudes.0")]}
+        to="https://dragonballdle.web.app/"
+        src={process.env.REACT_APP_LOCAL + "proyects/dbd.png"}
+        title={t("proyects.dbd.title")}
+        description={t("proyects.dbd.description")}
+        aptitud={[
+          t("proyects.dbd.aptitudes.0"),
+          t("proyects.dbd.aptitudes.1"),
+          t("proyects.dbd.aptitudes.2"),
+          t("proyects.dbd.aptitudes.3"),
+          t("proyects.dbd.aptitudes.4"),
+          t("proyects.dbd.aptitudes.5"),
+          t("proyects.dbd.aptitudes.6"),
+          t("proyects.dbd.aptitudes.7"),
+        ]}
       />
       <hr style={{ borderColor: "black" }} />
       <Box m="10px" p="10px">

@@ -70,6 +70,15 @@
             "p3":"",
             "redirect":"(Under development)",
             "aptitudes":["(Under development)"]
+        },
+         "dbd":{
+            "title":"DragonBallDle",
+            "description":"Project for CFGS Multiplatform Application Development based on a Wordle-style game with Dragon Ball characters. Each day, players must guess a different character using a series of clues about the selected character. \n\nThe game also features two additional modes:\n\nShadow Mode: In this mode, an enlarged shadow of the character is presented, which becomes clearer with each attempt, allowing players to identify the shape of the character.\n\nBuu Fusion Mode: In this mode, characters fused with Buu are shown, and players must guess whom Buu has 'eaten.' \n\nThe website includes advanced features such as analytics, hosting on Firebase, a custom domain, ads, and multiple languages. Additionally, there is a mobile version on Android that is currently in beta and awaiting publication on the Google Play Store. \nClick on the image to go to the site.",
+            "p1":"",
+            "p2":"",
+            "p3":"",
+            "redirect":"",
+            "aptitudes":["React.JS","TypeScript","Problem solving","Research","CSS","Chakra ui","Firebase","Git"]
         }
     }
     

@@ -46,7 +46,9 @@ const ProyectCard = (props: Props) => {
           maxW={{ base: "100%", lg: "60%" }}
         >
           <Text fontSize={"4xl"}>{props.title}</Text>
-          <Text fontSize={"md"}>{props.description}</Text>
+          <Text whiteSpace={"pre-wrap"} fontSize={"md"}>
+            {props.description}
+          </Text>
         </Box>
       </Box>
       <Box display={"block"} gap={2} overflow={""}>
