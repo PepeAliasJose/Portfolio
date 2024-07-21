@@ -7,9 +7,6 @@ const Contact = () => {
   return (
     <Box
       w="100%"
-      backgroundAttachment="fixed"
-      backgroundImage={process.env.REACT_APP_LOCAL + "/bg.svg"}
-      backgroundSize="cover"
       h={"100vh"}
       position={"fixed"}
       overflowY={"hidden"}

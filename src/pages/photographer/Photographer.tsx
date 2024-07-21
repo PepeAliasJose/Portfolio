@@ -20,9 +20,6 @@ const Photographer = () => {
   return (
     <Box
       w="100%"
-      backgroundAttachment="fixed"
-      backgroundImage="/bg.svg"
-      backgroundSize="cover"
     >
       <Box
         position={"relative"}

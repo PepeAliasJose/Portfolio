@@ -8,6 +8,7 @@
 }
 
 body {
+  background-image: url('../../public/bgDark.jpeg');
   margin: 0px;
   font-family: roboto;
   -webkit-font-smoothing: antialiased;
@@ -23,28 +24,33 @@ body {
   font-weight: 900;
 }
 .navContainer{
-  background: inherit;
+  background: transparent;
   z-index: 100;
-  background-color: #EEE;
-  opacity: 0.9;
   margin: 0px;
+  padding-top: 10px;
   position: -webkit-sticky;
   position: sticky;
+  border-radius: 100%;
   top: 0;
 }
 .navbar {
-  background: inherit;
+  background: linear-gradient(to right, #5354a7,#3652d0);
   display: flex;
-  margin: 10px;
+  margin: 0px;
   margin-top: 0px;
   padding: 15px;
-  border-bottom: 2px solid black ;
+  border: 2px solid #f9f9f960 ;
+  border-radius: 100px;
+  /*backdrop-filter: blur(10px);*/
 }
 
 .languageSelector {
   margin-left: auto;
 }
 .navLink {
+  background-color: inherit;
+  transform: scale(1, 1);
+  transition-duration : 0.2s;
   display: inline-flex;
   width: fit-content;
   margin-right: 5px;
@@ -52,7 +58,9 @@ body {
   padding-right: 5px;
   padding-left: 5px;
   font-weight: 500;
+  text-decoration: underline;
 }
+
 .linkList {
   display:inline;
 }
@@ -61,16 +69,29 @@ body {
 }
 .navName{
   display: block;
-  border-right: solid 2px black;
+  border-right: 2px solid #f9f9f960;
   margin-right: 10px;
   padding-right: 10px;
 }
-@media only screen and (max-width: 1000px) {
+.vertical{
+  writing-mode :vertical-lr;
+  height: max-content;
+}
+@media only screen and (max-width: 1120px) {
   .navName {
     display: none;
   }
 }
-@media only screen and (max-width: 790px) {
+@media only screen and (max-width: 991px) {
+  .vertical{
+    writing-mode :horizontal-tb;
+    height: max-content;
+  }
+}
+@media only screen and (max-width: 915px) {
+  .navName {
+    display: block;
+  }
   .linkList {
     display: none;
   }
@@ -82,10 +103,15 @@ body {
     margin-bottom:10px;
   }
 }
+@media only screen and (max-width: 470px) {
+  .navName {
+    display: none;
+  }
+}
 
 .navLink:hover {
-  transform: scale(1.2, 1.2);
-  transition-duration : 0.15s;
+  transform: scale(1.1, 1.1);
+  transition-duration : 0.2s;
 }
 
 .invertCont{

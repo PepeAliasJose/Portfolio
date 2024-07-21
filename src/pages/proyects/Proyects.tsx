@@ -11,8 +11,9 @@ const Proyects = () => {
     <Box
       mx={{ base: "10px", sm: "auto" }}
       w={{ base: "auto", sm: "85%", md: "70%" }}
+      bg={"inherit"}
     >
-      <ParticlesBg type="cobweb" bg={true} num={25} />
+      <ParticlesBg type="cobweb" bg={true} num={50} color="#F9F9F9"/>
       <Text fontSize={"6xl"} fontWeight={"medium"} height={"min-content"}>
         Mis proyectos
       </Text>
@@ -36,7 +37,7 @@ const Proyects = () => {
           t("proyects.visual.aptitudes.7"),
         ]}
       />
-      <hr style={{ borderColor: "black" }} />
+      <hr style={{ borderColor: "#F9F9F990", borderWidth:"1px", borderRadius:"5px" }} />
       <ProyectCard
         reversed
         to="./"
@@ -53,7 +54,7 @@ const Proyects = () => {
           t("proyects.car.aptitudes.0"),
         ]}
       />
-      <hr style={{ borderColor: "black" }} />
+      <hr style={{ borderColor: "#F9F9F990", borderWidth:"1px", borderRadius:"5px" }} />
       <ProyectCard
         to="https://dragonballdle.web.app/"
         src={process.env.REACT_APP_LOCAL + "proyects/dbd.png"}
@@ -70,7 +71,7 @@ const Proyects = () => {
           t("proyects.dbd.aptitudes.7"),
         ]}
       />
-      <hr style={{ borderColor: "black" }} />
+      <hr style={{ borderColor: "#F9F9F990", borderWidth:"1px", borderRadius:"5px" }} />
       <Box m="10px" p="10px">
         <Text textAlign={"center"}>
           {t("proyects.more")}

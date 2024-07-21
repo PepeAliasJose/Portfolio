@@ -7,14 +7,14 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const { t } = useTranslation("global");
   return (
-    <Box className="navContainer">
+    <Box className="navContainer" mx={{ base: "10px", sm: "50px", md: "100px" }}>
       <Box className="navbar">
         <Box className="navName">
           <Text w={"fit-content"} fontWeight={"bold"}>
             {t("home.name")}
           </Text>
         </Box>
-        <Box className="linkBoxt">
+        <Box className="linkBox">
           <Box className="linkList">
             <Link className="navLink " to={"/"}>
               {t("home.links.home")}
@@ -39,23 +39,23 @@ const Navbar = () => {
           <Box className="linkButton invertCont">
             <Menu>
               <MenuButton>{t("home.links.button")}</MenuButton>
-              <MenuList bg={"gray.100"} display={"block"}>
-                <Link className="navLink invertText" to={"/"}>
+              <MenuList bg={"#5354a7"} display={"block"} borderRadius={'15px'} borderWidth={'2px'}>
+                <Link className="navLink" to={"/"}>
                   {t("home.links.home")}
                 </Link>
-                <Link className="navLink invertText" to={"/developer"}>
+                <Link className="navLink" to={"/developer"}>
                   {t("home.links.developer")}
                 </Link>
-                <Link className="navLink invertText" to={"/robotics"}>
+                <Link className="navLink" to={"/robotics"}>
                   {t("home.links.robotics")}
                 </Link>
-                <Link className="navLink invertText" to={"/proyects"}>
+                <Link className="navLink" to={"/proyects"}>
                   {t("home.links.proyects")}
                 </Link>
-                <Link className="navLink invertText" to={"/photographer"}>
+                <Link className="navLink" to={"/photographer"}>
                   {t("home.links.photography")}
                 </Link>
-                <Link className="navLink invertText" to={"/contact"}>
+                <Link className="navLink" to={"/contact"}>
                   {t("home.links.contact")}
                 </Link>
               </MenuList>

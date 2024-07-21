@@ -12,8 +12,10 @@ export const theme = extendTheme({
     styles:{
         global:{
             body:{
-                bg:'#EEEEEE',
-                color:'gray.900'
+                backgroundImage:'../bgDark.jpeg',
+                bgSize:'cover',
+                color:'gray.100',
+                fontWeight:'semibold'
             }
         }
     }

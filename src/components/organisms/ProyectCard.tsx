@@ -30,6 +30,9 @@ const ProyectCard = (props: Props) => {
               }}
               src={props.src}
               alt={props.title}
+              border={"solid"}
+              borderWidth={"2px"}
+              borderColor={"#F9F9F990"}
               borderRadius={"15px"}
               objectFit={"cover"}
               w="100%"
@@ -60,11 +63,11 @@ const ProyectCard = (props: Props) => {
             float={props.reversed ? "right" : "left"}
             height={"40px"}
             w={"fit-content"}
-            padding={"7px"}
+            padding={"8px"}
             border={"2px"}
-            borderColor={"gray.900"}
+            borderColor={"gray.200"}
             borderStyle={"solid"}
-            borderRadius={"10px"}
+            borderRadius={"100px"}
             backdropFilter={"blur(5px) brightness(104%)"}
           >
             {e}
