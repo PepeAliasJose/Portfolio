@@ -8,7 +8,6 @@ const Contact = () => {
     <Box
       w="100%"
       h={"100vh"}
-      position={"fixed"}
       overflowY={"hidden"}
     >
       <Box
@@ -17,6 +16,7 @@ const Contact = () => {
         display={"flex"}
         flexDir={"column"}
         gap={6}
+        mt={"2rem"}
       >
         <Text fontSize={"lg"} fontWeight={"medium"}>
           {t("contact")}
@@ -24,30 +24,41 @@ const Contact = () => {
         <Box
           mx={"auto"}
           my="5px"
+          w="fit-content"
           fontSize={"xl"}
           fontWeight={"large"}
-          flexDir={"column"}
+          flexDir={{base:"column", sm:"row" }}
           display={"flex"}
+          gap={"6"}
+          p={"15px"}
+          border={"solid"}
+          borderWidth={"2px"}
+          borderColor={"#F9F9F920"}
+          backdropFilter={"blur(40px)"}
+          borderRadius={"20px"}
         >
-          <Box flexDir={"row"} display={"flex"} w={"fit-content"}>
+          <Box flexDir={"row"} display={"flex"} w={"fit-content"} className="link-wrapper">
             <Link
-              className="navLink"
+              className="hover-linkedin"
               to="https://www.linkedin.com/in/josé-rodríguez-cáceres-b7721b236/"
             >
-              <Image src={process.env.REACT_APP_LOCAL + "linkedin.svg"} />
-              Linkedin
+              LINKEDIN
             </Link>
           </Box>
-          <Box flexDir={"row"} display={"flex"} w={"fit-content"}>
+          <Box flexDir={"row"} display={"flex"} w={"fit-content"} className="link-wrapper">
             <Link
-              className="navLink"
+              className="hover-mail"
+              to="mailto:781peperc@gmail.com"
+            >
+              EMAIL
+            </Link>
+          </Box>
+          <Box flexDir={"row"} display={"flex"} w={"fit-content"} className="link-wrapper">
+          <Link
+              className="hover-infojobs"
               to="https://www.infojobs.net/candidate/cv/view/index.xhtml"
             >
-              <Image
-                src={process.env.REACT_APP_LOCAL + "infojobs.svg"}
-                mr={"2px"}
-              />
-              Infojobs
+              INFOJOBS
             </Link>
           </Box>
         </Box>
