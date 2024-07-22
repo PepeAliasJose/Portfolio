@@ -286,7 +286,7 @@ const Home = () => {
           w="fit-content"
           fontSize={"xl"}
           fontWeight={"large"}
-          flexDir={{base:"column", sm:"row" }}
+          flexDir={{base:"column", md:"row" }}
           display={"flex"}
           gap={"6"}
           p={"15px"}
